@@ -1,0 +1,18 @@
+{
+    "TransactionType": "Invoke",
+    "Account": "rVotingaccount... (self)",
+    "HookParameters": [
+      {
+        "HookParameter": {
+          "HookParameterName": <uint8ToHex(0)>,
+          "HookParameterValue": <uint16ToHex(1)>+<(convertStringToHex('Name of candidate 1').padEnd(64,'0'))>
+        }
+      },
+      {
+        "HookParameter": {
+          "HookParameterName": <uint8ToHex(1)>,
+          "HookParameterValue": <uint16ToHex(6)>+<(convertStringToHex('Name of candidate 6').padEnd(64,'0'))>
+        }
+      },
+      ...
+...
